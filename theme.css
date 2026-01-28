@@ -1,0 +1,92 @@
+/* HabMate - Theme Styles (Light/Dark Mode) */
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4 {
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .nav-brand h1 {
+    color: var(--accent-color);
+}
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-link.active {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .auth-card,
+body.dark-mode .stats-card,
+body.dark-mode .habits-container,
+body.dark-mode .feed-intro,
+body.dark-mode .users-container,
+body.dark-mode .following-section,
+body.dark-mode .modal-content,
+body.dark-mode .habit-card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group select {
+    background-color: #2d2d2d;
+    border-color: #3d3d3d;
+    color: #e0e0e0;
+}
+
+body.dark-mode .form-group input:focus,
+body.dark-mode .form-group select:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(79, 195, 161, 0.2);
+}
+
+body.dark-mode .btn-icon:hover {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .btn-secondary {
+    background-color: #3d3d3d;
+}
+
+body.dark-mode .search-box input {
+    background-color: #2d2d2d;
+    border-color: #3d3d3d;
+    color: #e0e0e0;
+}
+
+body.dark-mode .user-habit-item {
+    border-bottom-color: #3d3d3d;
+}
+
+body.dark-mode .user-progress {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .following-item {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .progress-bar {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .footer {
+    background-color: #0a0a0a;
+}
+
+body.dark-mode .footer-note {
+    color: #a0a0a0;
+}
